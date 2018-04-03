@@ -4,6 +4,14 @@ body, p {
     background-color: #303030;
 }
 
+main {
+    font-family: 'Roboto', sans-serif;
+}
+
+.red {
+    padding: 10px;
+}
+
 .container {
     width: 100%;
 }
