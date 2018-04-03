@@ -1,0 +1,57 @@
+The request / response cycle is the back and forth that takes place when requesting a resource from a server on the internet.
+
+	Asynchronous Javascript and XmL = AJAX / XmL = way to structure information in order to pass it along to another programming language.
+
+Types of HTTP requests: post: create; get: read; put/patch: update; delete: deletion.  C R U D.
+
+Client ---------------------> Facebook.com/orlando...
+
+Client requests               Server goes ok (200)  
+facebook url                  Sends information(html, style, etc.)
+
+When dealing with AJAX, always check the network tag because that will tell you what is happening behind the scenes.
+
+URLS:
+
+http://     facebook.com     /profile
+  ||             ||             ||
+protocol       domain          path
+
+	stands for universal resource locator.
+	Protocol:
+	-http
+	-https (encrypted)
+	-ftp (file transforer)
+	-telenet (?)
+	domain name:
+	-www.google.com
+	-www.facebook.com
+	port number: everytime you have a server request you tell the server to use a certain port.
+	- 80
+	- 88
+	- 23
+	paramaters: gives you the ability to pass in values 
+	- ?id=54
+	- ?page=24
+	- ?lat=55.33&long=41.98
+	anchor: link to an id'd area of the page.
+	-#about-us
+	-#comment-45
+
+JSON: stands for javascript object notation; considered a lightweight interchange format; used to represent data across platforms.  Exactly the same as a JS object, except that the key is in quotes.  ex:  var whatever = {"thing": "thing"};
+
+	{"name": "orlando c",
+	 "age": 34,
+	 "gender": "male",
+	 "family-members": ["denisse", "trish", "mom", "dad"]
+	}
+
+This is significantly more readible than XmL.
+
+In order to use AJAX, you need libraries to parse through.
+
+AJAX is a technique in order to send or recieve data from a server without reloading the page.
+
+Frequent status codes: 200(status is ok).  201(what was requested was created).  204(there is no content).  400(bad request).  
+
+Axios: a modern library for AJAX requests.
