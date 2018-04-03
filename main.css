@@ -4,6 +4,10 @@ body, p {
     background-color: #303030;
 }
 
+.container {
+    width: 100%;
+}
+
 #row-text>div {
     text-align: center;
     border: 10px;
@@ -12,4 +16,12 @@ body, p {
 #row-text2>div {
     text-align: center;
     border: 10px;
+}
+
+h1 {
+    background-color: #EB5757;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
 }
